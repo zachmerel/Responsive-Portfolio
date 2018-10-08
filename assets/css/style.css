@@ -1,0 +1,174 @@
+body{
+    background-image:url(/Basic-Portfolio/assets/images/dark_Tire_@2X.png);
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+}
+header{
+    background: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background:#666666;
+    z-index: 3;
+    
+ }
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+  }
+a:active {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:link {
+    color: #777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.pagelinks{
+    float: right;
+    margin: 20px;
+}
+.copyright{
+    font-size: small;
+    bottom: 2px;
+    margin-top: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+.contact_box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid #dddddd;
+    padding: 5px;
+}
+.portfolio_pictures{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    margin: 20px 20px;
+    z-index: 1;
+}
+.portfolio_text{
+    position: absolute;
+    text-align: center;
+    bottom: 3%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -75%);
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 280px;
+    z-index: 2;
+}
+.footer_accent{
+    background: #4aaaa5;
+    height:5px;
+    z-index: 3;
+}
+.content_seperator{
+    background: #dddddd;
+    height: 1px;
+    width: 95%;
+    margin: 20px auto;
+}
+.header_width{
+    width: 1000px;
+    margin:  auto;
+}
+.row1{
+    position: relative;
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+.content_area{
+    background: #ffffff;
+    padding: 20px;
+    font: color #dddddd;
+    width: 960px;
+    margin: 20px auto 100px auto;
+    border: 1px solid #dddddd;
+   
+
+}
+.message_box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid #dddddd;
+    padding: 5px;
+    resize: both;
+    overflow: auto;
+    width: 98%;
+}
+#submit_button{
+    background: #4aaaa5;
+    padding: 8px;
+    color: #ffffff;
+    width: 5%;
+}
+
+#pagetitle{
+    padding: 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+#biopicture{
+    width: 170px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+#bio{
+    font-size: x-large;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 20px;
+}
+
+#myname{
+    padding: 20px;
+    width: 14%;
+    font-size: x-large;
+    font-weight: bold;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#name_text{
+    /* padding-top: 20px; */
+}
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 640px) {
+    header{
+        position: static;
+    }
+}
+    
+
